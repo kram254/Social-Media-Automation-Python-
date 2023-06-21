@@ -14,7 +14,7 @@ pg.press("enter")
 
 pg.leftClick(143, 267, 1, 5)
 time.sleep(1)
-key.write("#porsche911")
+key.write("#midjourney")
 time.sleep(3)
 
 # locating my search suggestions and clicking
@@ -25,9 +25,9 @@ time.sleep(15)
 pg.leftClick(470, 474)
 time.sleep(5)
 
-list = ["Work of art", "Nice", "Awesome", "Good job", "Great", "Perfection"]
+list = ["Work of art", "Nice", "Awesome", "", "Great", "Perfection"]
 
-for i in range(50):
+for i in range(150):
     # Like button position
     pg.doubleClick(399, 395)
     time.sleep(3)
@@ -45,3 +45,4 @@ for i in range(50):
     
     time.sleep(3)
 
+print("I'm Done biiih!!")
