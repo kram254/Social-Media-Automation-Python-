@@ -4,24 +4,24 @@ import time
 import random
 
 time.sleep(10)
-print(pg.position())
+# print(pg.position())
 
-# pg.leftClick(421, 758, 1, 3)
-# time.sleep(1)
-# pg.typewrite("www.instagram.com")
-# time.sleep(1)
-# pg.press("enter")
+pg.leftClick(421, 758, 1, 3)
+time.sleep(1)
+pg.typewrite("www.instagram.com")
+time.sleep(1)
+pg.press("enter")
 
-# pg.leftClick(85, 48, 1, 5)
-# time.sleep(1)
+pg.leftClick(85, 48, 1, 5)
+time.sleep(1)
 
-# pg.doubleClick(575, 486)
-# time.sleep(10)
+pg.doubleClick(575, 486)
+time.sleep(10)
 
-# pg.long_press(1358, 727, duration)
-# pg.mouseDown(1358, 727)
-# time.sleep(duration)
-# pg.mouseUp(1358, 727)
+pg.long_press(1358, 727, 4)
+pg.mouseDown(1358, 727)
+time.sleep(4)
+pg.mouseUp(1358, 727)
 
 
 

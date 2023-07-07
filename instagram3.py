@@ -14,7 +14,7 @@ pg.press("enter")
 
 pg.leftClick(143, 267, 1, 5)
 time.sleep(3)
-key.write("#aiart")
+key.write("#art")
 time.sleep(3)
 
 # locating my search suggestions and clicking
@@ -25,22 +25,22 @@ time.sleep(15)
 pg.leftClick(470, 474)
 time.sleep(5)
 
-# list = ["Nice", "Awesome", " ", "Great"]
+# list = ["Nice", "Awesome", "Good one ", "Great"]
 
-list = ["Work of art", "Nice", "Awesome", "Excellent", "Great", "Perfection", "Elegant", "Stylish", "Stunning", "Radiant"]
+# list = ["Work of art", "Nice", "Awesome", "", "Great", "Perfection"]
 
-for i in range(250):
+for i in range(1500):
     # Like button position
     pg.doubleClick(399, 395)
     time.sleep(3)
       
-    # position of the comment box
-    pg.leftClick(1011, 688, 1)
-    message = random.choice(list)
-    pg.typewrite(message)
-    time.sleep(1)      
-    pg.press("enter")
-    time.sleep(5)
+    # # position of the comment box
+    # pg.leftClick(1011, 688, 1)
+    # message = random.choice(list)
+    # pg.typewrite(message)
+    # time.sleep(1)      
+    # pg.press("enter")
+    # time.sleep(5)
       
     # locating NEXT button
     pg.leftClick(1320, 396)
