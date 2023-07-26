@@ -14,7 +14,7 @@ pg.press("enter")
 
 pg.leftClick(143, 267, 1, 5)
 time.sleep(3)
-key.write("#art")
+key.write("#carartwork")
 time.sleep(3)
 
 # locating my search suggestions and clicking

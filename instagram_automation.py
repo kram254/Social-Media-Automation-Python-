@@ -13,8 +13,8 @@ time.sleep(1)
 pg.press("enter")
 
 pg.leftClick(143, 267, 1, 5)
-time.sleep(3)
-key.write("#aiart")
+time.sleep(5)
+key.write("#baddie")
 time.sleep(3)
 
 # locating my search suggestions and clicking
