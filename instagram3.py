@@ -14,7 +14,7 @@ pg.press("enter")
 
 pg.leftClick(143, 267, 1, 5)
 time.sleep(3)
-key.write("#carartwork")
+key.write("#aiart")
 time.sleep(3)
 
 # locating my search suggestions and clicking
@@ -29,7 +29,7 @@ time.sleep(5)
 
 # list = ["Work of art", "Nice", "Awesome", "", "Great", "Perfection"]
 
-for i in range(1500):
+for i in range(2500):
     # Like button position
     pg.doubleClick(399, 395)
     time.sleep(3)

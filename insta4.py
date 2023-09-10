@@ -3,10 +3,9 @@ import keyboard as key
 import time
 import random
 
-
 time.sleep(3)
 
-search_topics = ["#aiart", "#midjourney", "#midjourneyart"]
+search_topics = ["#photography", "#midjourneyart"]
 
 for _ in range(10):  # Loop 10 times, adjust as desired
     pg.leftClick(421, 758, 1, 3)
@@ -30,7 +29,7 @@ for _ in range(10):  # Loop 10 times, adjust as desired
     time.sleep(5)
     comment_list = ["Work of art", "Nice", "Awesome", "Excellent", "Great", "Perfection", "Elegant", "Stylish", "Stunning", "Radiant"]
 
-    for i in range(100):
+    for i in range(1000): 
         pg.doubleClick(399, 395)
         time.sleep(3)
 
